@@ -4,6 +4,7 @@ import FocusArea from './components/FocusArea';
 import RatingsInsurance from './components/RatingsInsurance';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
+import FAQ from './components/FAQ';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <FocusArea />
       <RatingsInsurance />
       <Testimonial />
+      <FAQ />
       <Footer />
     </main>
   );
